@@ -73,8 +73,8 @@ async function navigateToHomePageViaLogo(driver) {
 }
 
 async function loginToHomePage(driver){
-    await driver.findElement(By.name("username")).sendKeys("engineer.automate");
-    await driver.findElement(By.name("password")).sendKeys("Info@2345!?");
+    await driver.findElement(By.name("username")).sendKeys("////////////");
+    await driver.findElement(By.name("password")).sendKeys("////////////");
     await driver.findElement(By.name("remember")).click();
     await driver.findElement(By.css("button.btn.linkbtn")).click();
 
